@@ -1,0 +1,4 @@
+const myJSON = '{"Name": "Mayank Agarwal","ImgURL": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2022/158.png","Team": "PBKS","Type": "Batsman ","Born": "February 16, 1991 Bangalore, Karnataka","Age": "31 Years, 0 Months, 28 Days","National Side": "India","Batting Style": "Right Handed","Bowling": "Off break","MatchPlayed": 100,"InningsBatted": 95,"NotOuts": 4,"RunsScored": 2131,"HighestInnScore": "106 v RR","100s": 1,"50s": "11","4s": 203,"6s": 85,"BattingAVG": 23.41,"BattingSR": 135.47,"CatchesTaken": 40,"StumpingsMade": 0,"Ducks": 6,"InningsBowled": null,"Overs": null,"Maidens": null,"RunsConceded": null,"Wickets": null,"Best": "","3s": null,"5s": null,"BowlingAVG": null,"EconomyRate": null,"BowlingSR": null,"MatchedPlayed": null}';
+const myObj = JSON.parse(myJSON);
+
+document.getElementById("demo").innerHTML =myObj.Age;
